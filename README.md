@@ -1,2 +1,2 @@
-# DuckDuckGo
+# duck-duck-clone
 ---
