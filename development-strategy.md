@@ -1,40 +1,80 @@
 # Development Strategy
 
-> `name-of-project`
+> `duck-duck-clone`
 
-write a short description of your project:
+- write a short description of your project:
+
+### The project is recreating the DuckDuckGo page 
+
 - who would want to use it?
-- why would they want to use it?
+  
+### Anyone want to search for information as it is a powerful engine to search information 
 
-## Wireframe
+- why would they want to use it?
+  
+  Because it is more secure and better performance 
+
+## Wireframe (Samir)
 
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
 ![wireframe]()
 
-## 0. Set-Up
+## 0. Set-Up (Samir)
 
-__A User can see my initial repository and live demo__
+__A User can see my a repo with full README.md file__ 
 
 ### Repo
 
 - Generate from Template
 - Write initial, basic README
 - Turn on GitHub Pages
+- Active GitHub pages
+- Add collaborators 
+- Write the strategy plan
+- Turn the strategy steps to issues 
+- Assign each issue to a collaborators 
+- Add a new  project board `duck-duck-clone-project-board`
+- Add the issues to the project board column `To do`, `Doing` , `Ready for review`, `Need revision` and `Done`
+  
 
-## 1. __
+## 1. The header (Krystyna)
 
 __full user story description__
 
-### Repo
+
+## 1. Search box (Samir)
+
+__full user story description__
+
+
+## 1. Personal info (Samir )
+
+__full user story description__
+
+
+## 1. Adds  (Samir & Krystyna)
+
+__full user story description__
+
+## 1. Browsing  (Marie)
+
+__full user story description__
+
+## 1. Referral  (Houcinos)
+
+__full user story description__
+
+
+### Repo (Group)
 
 what branch(es) did you work on?
 
-### HTML
+### HTML(group)
 
 what did you change in the HTML and why?
 
-### CSS
+### CSS (group)
 
 what did you change in the CSS and why?
 
