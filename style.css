@@ -1,6 +1,257 @@
-*{
-    margin:0; 
-    padding:0;
+/* COMMON */
+
+@font-face {
+    font-family: 'ddg-serp-icons';
+    src: url("https://fmkarakus.github.io/duck-duck-clone/fonts/ddg-serp-icons.woff");
+    src: url("./fonts/ddg-serp-icons.woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 100% ;
+    line-height: 1.5rem;
+    font-weight: normal;
+}
+
+
+ul {
+    list-style: none
+}
+
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+#navbar {
+    display: inline-flex;
+    float: right;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+#social-menu {
+    margin-top: 20px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.social-menu-list {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -75px;
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
+    z-index: 100;
+    right: -22px;
+    width: 130px;
+    min-width: unset;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    color: #222;
+    white-space: normal;
+
+}
+
+#social-menu img {
+    padding: 0;
+    margin-right: 10px;
+}
+
+.social-menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.social-menu-item:last-child {
+    padding-bottom: 0;
+}
+
+.social-menu-item a,
+.flyout-menu-item a {
+    font-size: 13px;
+    color: #555;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-menu-item a {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.social-menu-item a:hover,
+.flyout-menu-item a:hover,
+.social-menu-item a:focus,
+.flyout-menu-item a:focus {
+    text-decoration: underline;
+}
+
+.social-menu-item a p {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* FLYOUT MENU */
+
+#flyout-menu {
+    position: relative;
+    z-index: 50;
+    margin-top: 20px;
+   bottom: 2px;
+   padding-left: 10px;
+}
+
+#flyout-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px 20px 20px;
+}
+
+.flyout-menu-list {
+    border: 1px solid #bbb;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    transition: right 0.2s;
+}
+
+.flyout-menu-heading {
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+    font-size: .7rem;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.flyout-menu-btn {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btnClose {
+    font-family: 'ddg-serp-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none !important;
+    color: #555;
+    font-stretch: extra-expanded;
+  
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    text-align: center;
+    color: #bfbfbf;
+    font-size: 1.2em;
+   background-color: transparent;
+}
+
+
+/* ICONS */
+
+.ddgsi-horn {
+    font-family: 'ddg-serp-icons';
+    font-size: 25px;
+}
+
+.ddgsi-horn::before {
+    content: '\48';
+}
+
+.ddgsi-horn-a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.ddgsi-horn-a:hover,
+.ddgsi-horn-a:active {
+    color: #555;
+}
+
+.ddgsi-a {
+    font-family: 'ddg-serp-icons' !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none !important;
+    border-radius: 4px;
+    border: none;
+    background: none;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    width: 33px;
+    height: 33px;
+    line-height: 34px;
+    text-indent: 1px;
+    font-size: 16px;
+    padding: 6px;
+    color: #aaa;
+}
+
+.ddgsi-a:hover,
+.ddgsi-a.active {
+    color: white;
+    background-color: #555;
+}
+
+.ddgsi-bars::before {
+    content: '\21f6';
+}
+
+
+/* SECTION MAIN */
+
+section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo a {
+    display: block;
 }
 
 
