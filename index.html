@@ -1,15 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title></title>
-  <meta charset="utf-8">
+    <title>DuckDuckGo — Privacy, simplified.</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+   
+ <!-- Leave this here!  It renders the review buttons  -->
+    <script src='./evaluation/init.js'></script>
 
-  <!-- Leave this here!  It renders the review buttons  -->
-  <script src='./evaluation/init.js'></script>
 </head>
 
 <body>
+    <header>
+
+        <nav id="navbar">
+
+            <div id="social-menu">
+
+                <a class="ddgsi-horn-a" href="#"><span class="ddgsi-horn"></span></a>
+                <div class="social-menu-list">
+                    <div class="social-menu-item">
+                        <a href=""><img src="./images/twitter.svg" alt="twitter">
+                            <p>Twitter</p>
+                        </a>
+                    </div>
+                    <div class="social-menu-item">
+                        <a href=""><img src="./images/reddit.svg" alt="reddit">
+                            <p>Reddit</p>
+                        </a>
+                    </div>
+                    <div class="social-menu-item">
+                        <a href=""><img src="./images/blog.svg" alt="blog">
+                            <p>Blog</p>
+                        </a>
+                    </div>
+                    <div class="social-menu-item">
+                        <a href=""><img src="./images/newsletter.svg" alt="newsletter">
+                            <p>Newsletter</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="flyout-menu">
+                <a class="ddgsi-a" href="#">⇶</a>
+                <div class="flyout-menu-list">
+                    <div class="flyout-menu-btn"><span class="btnClose">X</span></div>
+                    <ul class="flyout-menu-list-ul">
+                        <li class="flyout-menu-heading"><span>Settings</span></li>
+                        <li class="flyout-menu-item clear"><a href="https://duckduckgo.com">Themes</a></li>
+                        <li class="flyout-menu-item"><a href="#">Other Settings</a></li>
+                        <li class="flyout-menu-item"><a href="#">!Bang Search Shortcuts</a></li>
+                    </ul>
+                    <ul class="flyout-menu-list-ul">
+                        <li class="flyout-menu-heading"><span>Privacy Essentials</span></li>
+                        <li class="flyout-menu-item"><a href="https://duckduckgo.com/">Private Search</a></li>
+                        <li class="flyout-menu-item"><a href="#">App and Extension</a></li>
+                    </ul>
+                    <ul class="flyout-menu-list-ul">
+                        <li class="flyout-menu-heading"><span>Why Privacy</span></li>
+                        <li class="flyout-menu-item"><a href="https://spreadprivacy.com/">Privacy Blog</a></li>
+                        <li class="flyout-menu-item"><a href="https://duckduckgo.com/newsletter">Privacy Crash Course</a></li>
+                        <li class="flyout-menu-item"><a href="#">Help Spread Privacy</a></li>
+                    </ul>
+                    <ul class="flyout-menu-list-ul">
+                        <li class="flyout-menu-heading"><span>Who We Are</span></li>
+                        <li class="flyout-menu-item"><a href="#">About Us</a></li>
+                        <li class="flyout-menu-item"><a href="#">Privacy Policy</a></li>
+                        <li class="flyout-menu-item"><a href="#">Careers</a></li>
+                        <li class="flyout-menu-item"><a href="#">Press Kit</a></li>
+                    </ul>
+                    <ul class="flyout-menu-list-ul">
+                        <li class="flyout-menu-heading"><span>Keep in Touch</span></li>
+                        <li class="flyout-menu-item"><a href="https://twitter.com/duckduckgo">Twitter</a></li>
+
+                        <li class="flyout-menu-item"><a href="https://reddit.com/r/duckduckgo">Reddit</a></li>
+                        <li class="flyout-menu-item"><a href="https://help.duckduckgo.com/">Help</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <script>
+            document.body.addEventListener("click", hide_flyout);
+            
+            function hide_flyout(e) {
+            
+                var flyout_ = document.getElementsByClassName('flyout-menu-list')[0];
+                var flyout_lnk = document.getElementsByClassName('ddgsi-a')[0];
+            
+                var social_ = document.getElementsByClassName('social-menu-list')[0];
+                var social_lnk = document.getElementsByClassName('ddgsi-horn')[0];
+            
+                if (e.target !== social_ && e.target !== social_lnk) {
+                    social_.style.display = 'none';
+            
+                } else {
+                    if (social_.style.display == 'block') {
+                        social_.style.display = 'none'
+                    } else {
+                        social_.style.display = 'block'
+                    }
+                };
+            
+                if (e.target !== flyout_ && e.target !== flyout_lnk) {
+            
+                    flyout_.style.right = '-300px';
+            
+                } else {
+                    flyout_.style.right = '0px';
+                }
+            }
+            </script>
+    </header>
+
+    <section id="main">
+        <div id="logo">
+            <a href="#"><img src="./images/DuckDuckGo_logo-svg.svg" alt="logo"></a>
+        </div>
+    </section>
+
+   
+   
 
 </body>
 
