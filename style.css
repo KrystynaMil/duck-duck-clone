@@ -1,0 +1,110 @@
+*{
+    margin:0; 
+    padding:0;
+}
+
+
+/*section5*/
+#header5{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    height: 100%;
+    min-height: 100%;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
+}
+.container5{
+    background-color: #87cef5;
+    padding-top: 20px;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
+}
+.dismiss{
+    color: #00000080;
+    font: 14px;
+    padding-right: 10px;
+}
+.seperator{
+    color: #00000066;
+    font: 14px;
+}
+.back{
+    color: #000000B3;
+    font: 14px;
+    padding-left: 10px;
+}
+#title5{
+    height: 100%;
+    min-height: 100%;
+   
+}
+.container51{
+    background-color: #87cef5;
+    text: #365374;
+    text-align: center;
+    padding-top: 80px;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
+}
+.container51 h1{
+    color: #365374;
+    text-shadow: none;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font: 20px;
+    padding: 30px 0px 15px;
+}
+.container51 p{
+    color: #365374;
+    font: 15px;
+    text-shadow: none;
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-bottom: 10px;
+    padding: 3.75px 0px;
+}
+.text5{
+    padding: 10px;
+    padding-bottom: 60px;
+}
+#button5{
+    padding-top: 20px;
+}
+.button51{
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 1em;
+    line-height: 2.5;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.1);
+    background-color: #365374;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: content-box;
+    user-select: none;
+    font-size: 14px;
+    padding: 12px 20px 10px;
+    margin: 28px 0px 0px;
+    font: 14px;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
+    
+}
+.image5{
+    background-color: #87cef5;
+    padding-top: 60px;
+    object-fit: cover;
+    width: 100%;
+    min-height: 100%;    
+    
+}
