@@ -31,7 +31,7 @@ Project is created with:
 
 ## Setup
 
-[App-theme Demo](https://samirm00.github.io/duck-duck-clone/)
+[DuckDuckGo Demo](https://samirm00.github.io/duck-duck-clone/)
 
 ## Status
 
