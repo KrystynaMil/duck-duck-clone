@@ -1,0 +1,36 @@
+body {
+  background-color: #f7f7f7;
+}
+#section-search {
+  margin-top: 350px;
+}
+.main-search {
+  text-align: center;
+  position: relative;
+  border: 1px;
+  border-color: rgb(31, 22, 22);
+}
+.search-input {
+  width: 450px;
+  height: 30px;
+}
+.search-pic {
+  position: absolute;
+  width: 15px;
+  top: 10px;
+  left: 960px;
+}
+.text {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #4495d4;
+  font-size: 14px;
+  font-weight: 200;
+}
+.footer-icon {
+  text-align: center;
+  margin-top: 200px;
+}
+.footer-icon img {
+  width: 200px;
+}
