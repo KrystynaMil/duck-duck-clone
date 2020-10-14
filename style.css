@@ -248,8 +248,38 @@ header {
 #logo a {
     display: block;
 }
+/* SECTION BROWSING */
 
-
+   .container{
+      background-color:#5d63cc;
+      color: white;
+      height: 100vh;
+      position: relative;
+  }
+  
+  .box{
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+  }
+  
+  .heading{
+      font-weight: 900;
+      font-size: 45px;
+      margin-bottom: 60px;
+      line-height:40px ;
+  }
+  
+  .paragraph{
+      font-size: 20px;
+  }
+  
+  .holder{
+      position :absolute;
+      bottom:0;
+  }
 /*section5*/
 #header5{
     display: inline;
