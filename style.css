@@ -247,7 +247,18 @@ header {
 
 #logo a {
     display: block;
+
 }
+/*SECTION ADS*/
+
+.container1 {
+
+background-color:#F5A238;
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+
 /* SECTION BROWSING */
 
    .container{
