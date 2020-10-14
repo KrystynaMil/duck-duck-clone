@@ -9,15 +9,11 @@
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    display: block;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
     background: #f7f7f7;
     margin: 0;
     padding: 0;
-    border: 0;
-    vertical-align: baseline;
 }
 
 h1 {
@@ -43,7 +39,7 @@ header {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 
 #navbar {
@@ -242,11 +238,10 @@ header {
 
 /* SECTION MAIN */
 
-section {
-    margin: 0 auto;
-    display: flex;
+#main {
+    
+   display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
 }
 
@@ -259,7 +254,7 @@ section {
 #header5{
     display: inline;
     list-style: none;
-    text-align: center;
+    text-align: right;
     height: 100%;
     min-height: 100%;
     font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
