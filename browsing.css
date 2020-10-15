@@ -15,6 +15,7 @@ body{
     color: white;
     height: 100vh;
     position: relative;
+    
 }
 
 .box{
@@ -39,4 +40,8 @@ body{
 .holder{
     position :absolute;
     bottom:0;
+}
+
+.holder img{
+    width: 100%;
 }
