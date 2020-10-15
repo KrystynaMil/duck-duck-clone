@@ -18,7 +18,7 @@
 
 <!-- include a wireframe for your project in this repository, and display it here -->
 <!-- wireframe.cc is a good site for getting started with wireframes -->
-![wireframe](/images/)
+![wireframe](https://github.com/samirm00/duck-duck-clone/blob/main/images/WireFrame.PNG)
 
 ### 0. Set-Up 
 
