@@ -18,6 +18,10 @@ body {
   background: #f7f7f7;
   margin: 0;
   padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 h1 {
@@ -57,6 +61,12 @@ header {
 }
 
 .social-menu-list {
+  width: 130px;
+  min-width: unset;
+  box-sizing: border-box;
+  display: block;
+  bottom: auto;
+  transition: opacity 0.4s;
   display: none;
   position: absolute;
   top: 30px;
@@ -65,16 +75,6 @@ header {
   padding: 20px 15px;
   border-radius: 8px;
   box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
-  z-index: 100;
-  right: -22px;
-  width: 130px;
-  min-width: unset;
-  box-sizing: border-box;
-  border-radius: 4px;
-  overflow: hidden;
-  background-color: #fff;
-  color: #222;
-  white-space: normal;
 }
 
 #social-menu img {
@@ -95,11 +95,9 @@ header {
 
 .social-menu-item a,
 .flyout-menu-item a {
-  font-size: 13px;
+  font-size: 15px;
   color: #555;
   text-decoration: none;
-  padding: 0;
-  margin: 0;
 }
 
 .social-menu-item a {
@@ -138,12 +136,19 @@ header {
 }
 
 .flyout-menu-list {
-  border: 1px solid #bbb;
+  transition: transform 0.3s ease-in-out 0s;
   background: #fff;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
   position: fixed;
   top: 0;
+  bottom: 0;
+  box-shadow: -1px 0 1px rgba(0, 0, 0, 0.2);
+  width: 12em;
   right: -300px;
   transition: right 0.2s;
+  left: auto;
+  z-index: 200;
 }
 
 .flyout-menu-heading {
@@ -246,6 +251,7 @@ header {
 }
 
 /* SEARCH BAR */
+
 #section-search {
   margin-top: 80px;
 }
@@ -266,9 +272,7 @@ header {
   top: 10px;
   left: 960px;
 }
-.search-pic:hover {
-  background-color: #58b792;
-}
+
 .text {
   text-align: center;
   font-family: "Quicksand", sans-serif;
@@ -285,7 +289,8 @@ header {
   width: 200px;
 }
 
-/* personal info */
+/* PERSONAL INFO SECTION  */
+
 .container10 {
   background-color: #58b792;
   color: white;
@@ -332,8 +337,8 @@ header {
 }
 
 .heading {
-  font-weight: 800;
-  font-size: 30px;
+  font-weight: 1200px;
+  font-size: 35px;
   margin-bottom: 20px;
   line-height: 40px;
 }
@@ -463,7 +468,84 @@ header {
   width: 100%;
   min-height: 100%;
 }
-#climer img {
+#climber img {
   width: 60%;
   margin-left: 20%;
+  margin-top: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 760px) {
+  .search-input {
+    width: 300px;
+    height: 30px;
+  }
+
+  .search-pic {
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    left: 370px;
+  }
+  .box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .heading {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    line-height: 40px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+  #monster img {
+    margin-left: 10%;
+    width: 90%;
+  }
+  #gohst img {
+    margin-left: 10%;
+    width: 90%;
+  }
+  #bathtub img {
+    margin-left: 10%;
+    width: 90%;
+  }
+  #climber img {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .search-pic {
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    left: 650px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .search-pic {
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    left: 780px;
+  }
+}
+@media (min-width: 1350px) and (max-width: 1400px) {
+  .search-pic {
+    position: absolute;
+    width: 15px;
+    top: 10px;
+    left: 890px;
+  }
 }
