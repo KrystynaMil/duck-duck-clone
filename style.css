@@ -256,7 +256,14 @@ header {
 
 }
 /*SECTION PERSONAL*/
-
+.info {
+    background-color: #58b792;
+    position: relative;
+   height: 100vh;
+    color: white;
+    
+}
+  
 /*SECTION ADS*/
 
  .container1 {
