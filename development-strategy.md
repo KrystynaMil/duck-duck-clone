@@ -119,7 +119,7 @@ __A User can see my a repo with full README.md file__
 - Header and paragraph styles  
 
 
-### 6. Referral 
+### 6. Referral `assigned to Houcinos `
 *As a vistor , I want to know if I can invaite others to the website*
 
 #### Repo
