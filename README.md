@@ -35,7 +35,7 @@ Project is created with:
 ## Status
 
 
-Project is: in process 
+Project is: Done!  
 
 ## Contributing
 
