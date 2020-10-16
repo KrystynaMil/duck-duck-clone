@@ -234,13 +234,22 @@
     vertical-align: middle;
     position: relative;
     margin-top: 12px;
-    
     text-indent: 1px;
     font-size: 16px;
-   
     color: #aaa;
     display: flex;
-    
+    transition: background-color .1s,color .1s;
+    border-radius: 4px;
+    padding: 0;
+    text-shadow: none;
+    position: relative;
+    width: 33px;
+    height: 33px;
+    line-height: 34px;
+    display: block;
+    float: right;
+    top: 1px;
+    z-index: 10;
   }
   
   .ddgsi-a:hover,
