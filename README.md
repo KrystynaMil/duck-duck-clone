@@ -14,8 +14,7 @@
 
 ## General info
 
-- 
--
+- The project is recreating the DuckDuckGo page
 
 ## Screenshots
 
