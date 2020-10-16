@@ -19,7 +19,7 @@
 
 ## Screenshots
 
-![Example screenshot](./images/)
+![Example screenshot](https://github.com/samirm00/duck-duck-clone/blob/main/images/readmePic.PNG)
 
 ## Technologies
 

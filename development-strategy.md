@@ -54,7 +54,8 @@ __A User can see my a repo with full README.md file__
 - Add navigation bar 
   
 #### CSS
-- Add background color and Images 
+- Add background style
+- Add logo style
 - Add social media buttons styles 
 - Add naviagtion bar button style 
   
@@ -69,9 +70,10 @@ __A User can see my a repo with full README.md file__
 - Add HTML main tags
 - Add the search bar and the button inside it 
 - Add the icons on the bottom of the page
-- 
+- Add classes and Ids 
 #### CSS
-- Add background color and Images 
+- Add background style
+- Add image style 
 - Add search bar and buttons styles 
 - Add icons styles 
 
@@ -79,15 +81,16 @@ __A User can see my a repo with full README.md file__
 *As a vistor , I want to if website ask for peronal information and how scure they are*
 
 #### Repo
-- Deveoloped on a branch  `searchbox`
+- Deveoloped on a branch  `personalinfo`
 
 #### HTML
 - Add header and paragraph 
 - Add an image  
 
 #### CSS
-- Add background color and Images 
-- Header and paragraph styles  
+- Add background style
+- Header and paragraph styles 
+- Image style  
 
 
 ### 4. Adds  `assigned to Krystyna `
@@ -101,8 +104,9 @@ __A User can see my a repo with full README.md file__
 - Add an image  
  
 #### CSS
-- Add background color and Images 
+- Add background style 
 - Header and paragraph styles  
+- Image style 
 
 ### 5. Browsing  `assigned to Marie `
 *As a vistor , I want to know if the website allow privare browsing*
@@ -115,8 +119,9 @@ __A User can see my a repo with full README.md file__
 - Add an image  
   
 #### CSS
-- Add background color and Images 
+- Add background style  
 - Header and paragraph styles  
+- Image style 
 
 
 ### 6. Referral `assigned to Houcinos `
@@ -131,8 +136,9 @@ __A User can see my a repo with full README.md file__
 - Add an image  
   
 #### CSS
-- Add butoon style 
-- Add background color and Images 
+- Add button style 
+- Add background style
+- Add image style
 - Header and paragraph styles 
 
 ---
