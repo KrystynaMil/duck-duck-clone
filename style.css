@@ -63,6 +63,7 @@ header {
   cursor: pointer;
   display: flex;
   align-items: center;
+
 }
 
 #social-menu {
@@ -233,17 +234,27 @@ header {
   vertical-align: middle;
   position: relative;
   margin-top: 12px;
-
   text-indent: 1px;
   font-size: 16px;
-
   color: #aaa;
-  display: flex;
-}
-
+  width: 33px;
+    height: 33px;
+    line-height: 34px;
+    text-indent: 1px;
+    transition: background-color .1s,color .1s;
+    border-radius: 4px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding: 0;
+    text-shadow: none;
+    display: block;
+    float: right;
+    top: 1px;
+    z-index: 10;
+} 
+ 
 .ddgsi-a:hover,
 .ddgsi-a.active {
-  color: white;
+ color: white;
   background-color: #555;
 }
 
